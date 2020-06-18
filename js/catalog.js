@@ -23,7 +23,7 @@ function populateForm() {
 // object, save the whole thing back to local storage and update the screen
 // so that it shows the # of items in the cart and a quick preview of the cart itself.
 function handleSubmit(event) {
-  handleSubmit.preventdefault();
+  event.preventDefault();
   // var theForm = event.target;
 
 
